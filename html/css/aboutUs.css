@@ -1,0 +1,17 @@
+@import url(../css/shared.css);
+.about-us_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.heading_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.heading-button {
+  width: 150px;
+  height: 50px;
+  margin-top: 40px; }

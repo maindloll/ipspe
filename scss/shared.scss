@@ -1,0 +1,132 @@
+$heading-color-2: #008795;
+$heading-color-1: #282829;
+$description-color:#535354;
+$button-color: #D0DD28;
+
+.heading-1 {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 70px;
+    text-align: center;
+    color: $heading-color-1;
+    margin-bottom: 20px;
+    @media screen and (max-width: 568px) {
+        font-size: 30px;
+        line-height: 47px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+}
+
+.heading-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $heading-color-2;
+    margin-bottom: 20px;
+    @media screen and (max-width: 568px) {
+        margin-bottom: 16px;
+    }
+}
+
+.heading-small {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: $heading-color-1;
+    margin-bottom: 15px;
+}
+
+.heading-middle {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 46px;
+    color: $heading-color-1;
+    margin-bottom: 20px;
+}
+
+.description-small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: $description-color;
+
+    @media screen and (max-width: 768px) {
+        max-width: 355px;
+    }
+}
+
+.description-semi-small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: $description-color;
+}
+
+.title-active {
+    text-decoration-line: underline;
+    color: $heading-color-2;
+}
+
+.description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: $description-color;
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+}
+
+.button {
+    background: $button-color;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: $heading-color-2;
+}
+
+.button-reach-out {
+    padding: 17px 26px;
+    background: #D0DD28;
+    text-decoration: none;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #008795;
+}
+
+.link-small {
+    text-decoration-line: underline;
+    color: #008795;
+}
